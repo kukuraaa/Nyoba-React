@@ -1,7 +1,74 @@
-h1{
-  color: aquamarine;
-
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
 }
-p{
-    color: purple;
+body {
+    background: #f0f2f5;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 650px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    overflow: hidden; 
+}
+.navbar {
+    background: #111;
+    padding: 20px;
+    text-align: center;
+}
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.navbar a:hover {
+    color: rgb(229, 183, 16);
+}
+
+.profil, .motivasi {
+    padding: 30px 40px;
+}
+.profil {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.foto img {
+    width: 150px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.biodata{
+    color: #111;
+    font-size:18px;
+    line-height:3;
+    text-align: left;
+}
+.motivasi h2 {
+    text-align: left;
+    font-family:"Times New Roman", Times, serif;
+    font-weight:bold;
+    margin-bottom: 15px;
+    color: #111;
+}
+.motivasi p {
+    color: #1a1818;
+    line-height: 1.6;
+    text-align: justify;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #aaa;
+    background-color: #111;
 }
